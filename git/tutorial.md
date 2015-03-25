@@ -52,7 +52,11 @@
 - use `git tag` to mark set version numbers
 
 
-## Git has so much useful functionality: blame, bisect, stash, branch
+## Git further hints
+
+- git has a lot of advanced commands
+
+        blame, bisect, stash, branch
 
 - a git aware prompt
 
