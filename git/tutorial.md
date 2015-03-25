@@ -4,39 +4,40 @@
 
 1. create a repository
 
-    mkdir my_git_project
-    cd my_git_project
-    git init
+        mkdir my_git_project
+        cd my_git_project
+        git init
 
 1. create some files
 
-    touch README.md LICENSE setup.py
+        touch README.md LICENSE setup.py
 
 1. add those files
 
-    git add README.md LICENSE setup.py
+        git add README.md LICENSE setup.py
 
 1. make a commit
 
-    git commit -m'Initial checkin of project files'
+        git commit -m'Initial checkin of project files'
 
 1. check that commit worked.
 
-    git log
+        git log
 
 
 ## Connecting with other repos
 
 1. Head over to http://github.com and click on '+' in upper RHS to create new repository
 
-1. git remote add github https://github.com/<username>/new_repo.git
+        git remote add github https://github.com/<username>/new_repo.git
 
-1. git pull
+        git pull github master
 
-1. git push
+        git push github master
 
 
-## A Stable workflow
+
+## A Pragmatic Workflow : Git Flow
 
 1. Checkout http://nvie.com/posts/a-successful-git-branching-model/
 
@@ -49,3 +50,11 @@
 - always merge with --no-ff
 
 - use `git tag` to mark set version numbers
+
+
+## Git has so much useful functionality: blame, bisect, stash, branch
+
+- a git aware prompt
+
+        export GIT_PS1_SHOWDIRTYSTATE=true
+        export export GIT_PS1_SHOWSTASHSTATE=true
