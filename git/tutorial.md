@@ -58,3 +58,12 @@
 
         export GIT_PS1_SHOWDIRTYSTATE=true
         export export GIT_PS1_SHOWSTASHSTATE=true
+
+- aliases for your ~/.gitconfig
+
+        pl = pull
+        ps = push
+        ci = commit
+        co = checkout
+        st = status
+        sy = !"git pl; git ps"
