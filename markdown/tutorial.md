@@ -44,8 +44,9 @@
 - _layouts/*.html allows for separation of content from presentation
   Templates go inside _templates and can be regular HTML files.
   But they need to contain `{{ content }}` as a place holder for the main content.
+  Jekyll gives you all the freedom of HTML+CSS (+JS) to use but there are many good
+  starting points, e.g. https://github.com/atmos/atmos.github.io/blob/master/_layouts/default.html
 
-    
 
 
 - Regular pages and posts have a header section and a body section.
