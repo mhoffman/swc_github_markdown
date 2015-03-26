@@ -36,6 +36,9 @@
         git push github master
 
 
+   The command `git push` is a combination of `git fetch` and `git merge`
+   Usually it is a good idea 
+
 
 ## A Pragmatic Workflow : Git Flow
 
@@ -71,3 +74,14 @@
         co = checkout
         st = status
         sy = !"git pl; git ps"
+
+## Merging conflicts
+
+- Check git status.
+  Open files marked as conflicting.
+  Inside the file check for `<<<<` markers.
+  Resolve merge conflict by manually editing the text.
+  Afterwards `git add` all conflicting files again.
+  Finish conflict resolution with `git commit`.
+
+
